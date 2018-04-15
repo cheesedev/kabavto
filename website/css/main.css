@@ -1,0 +1,632 @@
+* {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+@font-face {
+    font-family: "Geometria-bi";
+    src: url("../fonts/Geometria-Bolditalic.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Geometria";
+    src: url("../fonts/Geometria.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Geometria-t";
+    src: url("../fonts/Geometria-thin.otf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Proximanova-t";
+    src: url("../fonts/ProximaNovaT-Thin.woff") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 84px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+header {
+   font-size: 42px;
+    text-transform: uppercase;
+}
+
+#navbar {
+    background: #fff683;
+}
+
+#navbar > nav > div:nth-child(3) > div {
+    padding: 0 10px;
+}
+
+
+#about-us {
+    background: url(../img/about-us.png) no-repeat;
+    background-size: 100% 100%;
+    height: 900px;
+    font-size: 67px;
+    color: #fff;
+}
+
+#about-us > article > p {
+    position: relative;
+    left: 10%;
+    text-align: left;
+    width: 800px;
+    margin-bottom: 0;
+}
+
+#about-us > article > div {
+    position: absolute;
+    top: -62%;
+    left: 20%;
+    border-top: 11px solid #ffaf00;
+    border-left: 11px solid #ffaf00;
+    border-bottom: 11px solid #ffaf00;
+    width: 390px;
+    height: 590px;
+}
+
+#about-us > article > div > div:first-child {
+    position: absolute;
+    right: 0;
+    top: -1%;
+    border-right: 11px solid #ffaf00;
+    height: 99px;
+    width: 20px;
+}
+
+#about-us > article > div > div:last-child {
+    position: absolute;
+    right: 0;
+    bottom: -1%;
+    border-right: 11px solid #ffaf00;
+    height: 99px;
+    width: 20px;
+}
+
+
+#finished-projects {
+    height: 995px;
+    background: url(../img/map.png) no-repeat;
+    background-size: auto 101%;
+}
+
+#finished-projects > article {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+#finished-projects > article > p {
+    font-size: 66px;
+    color: #fff;
+    width: 800px;
+    margin: 0 0 125px 120px;
+}
+
+#finished-projects > article > div {
+    position: absolute;
+    bottom: 6%;
+    left: 6%;
+    width: 165px;
+    height: 250px;
+    border-top: 5px solid rgba(255, 255, 255, 0.6);
+    border-left: 5px solid rgba(255, 255, 255, 0.6);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.6);
+}
+
+#finished-projects > article > img {
+    position: relative;
+    margin: 0 0 45px 80px;
+}
+
+#finished-projects > article > span {
+    position: absolute;
+    right: 13%;
+    bottom: 16%;
+    height: 60px;
+    width: 60px;
+    border: 8px solid rgba(255, 255, 255, 0.6);
+    border-radius: 60%;
+}
+
+#finished-projects > article > span > div {
+    position: absolute;
+    left: -157%;
+    bottom: -147%;
+    height: 180px;
+    width: 180px;
+    border: 4px solid rgba(255, 255, 255, 0.6);
+    border-radius: 60%;
+}
+
+#finished-projects > article > div > div:first-child {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    width: 10px;
+    border-right: 5px solid rgba(255, 255, 255, 0.6);
+}
+
+
+#finished-projects > article > div > div:last-child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 10px;
+    border-right: 5px solid rgba(255, 255, 255, 0.6);
+}
+
+
+#goods-and-services {
+    height: 1210px;
+    background: #fff683;
+}
+
+#goods {
+    height: 620px;
+    color: #333c48;
+    background: url(../img/cable-reel.png) no-repeat 96% 67%;
+}
+
+#goods  > div:first-child > p {
+    font-size: 75px;
+    padding-top: 45px;
+    height: 100px;
+}
+
+#goods > #row > div:first-child > p {
+    padding-top: 75px;
+    font-size: 58px;
+}
+
+#goods > #row {
+    width: 100%;
+}
+
+#goods > #row > div:first-child > div > a {
+    color: #fff;
+}
+
+#goods > #row > div:first-child > div > a:hover {
+    text-decoration: none;
+}
+
+#goods > #row > div:first-child > div > a > div {
+    font-size: 50px;
+    width: 370px;
+    height: 80px;
+    font-family: "Geometria-bi";
+    background: #6fcbef;
+    border: none;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+#goods > #row > div:first-child > div > a > img {
+    width: 80px;
+    height: 80px;
+    padding: 9px;
+    background: #0066b3;
+    margin: 20px 0 0 0;
+}
+
+#goods > #row > div:nth-child(2) > img {
+    width: 380px;
+    padding: 0;
+}
+
+#services {
+    height: 590px;
+    background: url(../img/projection.png) no-repeat 1% 95%;
+}
+
+#services > div:first-child > p {
+    font-size: 75px;
+    padding-top: 45px;
+    height: 100px;
+    font-weight: 800;
+}
+
+#services > #row2 {
+    margin: 80px 0 0 0;
+}
+
+#services > #row2 > div {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    background: #6fcbef;
+    font-family: "Geometria-t";
+    font-size: 29px;
+    text-align: center;
+    word-break: break-all;
+    color: #fff;
+    padding: 19px;
+}
+
+
+#partners {
+    height: 888px;
+    background: #fff;
+    color: #333c48;
+}
+
+#partners > p {
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+#partners > article > div:first-child > a {
+    color: #333c48;
+}
+
+#partners > article > div:first-child > a:hover {
+    text-decoration: none;
+}
+
+#partners > article > div:first-child > a > div {
+    height: 80px;
+    font-size: 22px;
+    text-align: center;
+    border: #0066b3 solid 3px;
+    border-radius: 2%;
+
+}
+
+#partners > article > div:first-child > a > div > p{
+    margin: 0;
+}
+
+#partners > article > div:first-child > a > div > img {
+    height: 40px;
+    width: 40px;
+}
+
+#partners > article > div:first-child > img {
+    height: 460px;
+    width: 100%;
+    margin: 45px 0 0 0;
+}
+
+#partners div.col-lg-6 > a > div {
+    height: 85px;
+    margin: 0 0 26px 0;
+    background-size: 100%;
+}
+
+
+#news {
+    height: 1000px;
+    color: #333c48;
+}
+
+#news > div:first-child > p {
+    height: 120px;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+#news > article {
+    height: 500px;
+}
+
+#news > article > div {
+    height: 500px;
+    width: 390px;
+    background: #ffb000;
+    font-family: Geometria, sans-serif;
+    text-align: center;
+}
+
+#news > article > div > h2 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+#news > article > div > p {
+    font-size: 25px;
+}
+
+#news > article > div > a > img {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+#news > article > p {
+    font-size: 25px;
+    text-align: center;
+}
+
+#news > div:last-child {
+    margin: 100px auto;
+}
+
+#news > div:last-child > div >a {
+    color: #00001b;
+    font-family: Geometria;
+}
+
+#news > div:last-child > div > a:hover {
+    text-decoration: none;
+}
+
+#news > div:last-child > div {
+    width: 350px;
+    height: 80px;
+    font-size: 33px;
+    color: #00001b;
+    border: 1px #00001b solid;
+    margin: 80px 0;
+}
+
+#news > div:last-child > div > a > p {
+    margin: 0;
+    font-size: 25px;
+}
+
+#news > div:last-child > div > a > img {
+    margin: 0 0 0 37px;
+    height: 45px;
+    width: 45px;
+}
+
+
+#feedback {
+    height: 700px;
+    background: url(../img/thurmbsup.png) #ffaf00 no-repeat 94% 74%;
+}
+
+#feedback > div > p {
+    padding-top: 50px;
+    font-size: 58px;
+    font-weight: 700;
+    color: #fff;
+}
+
+div.owl-carousel > div > img {
+    height: 100%;
+    width: 100%;
+}
+
+div.slideritem {
+    height: 500px;
+    width: 370px;
+}
+
+
+#map {
+    height: 950px;
+}
+
+
+#staff {
+    height: 1265px;
+}
+
+.card-img-top {
+    padding: 30px;
+    background: #fff683;
+}
+
+.btn-link {
+    font-size: 50px;
+    color: #fff;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 800;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-body {
+    background: #fff683;
+    border: none;
+}
+
+.card-body1 {
+    background: #0066b3;
+    padding: 45px 0;
+}
+
+div.card-body > div {
+    background: #0066b3;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100%;
+    left: 48%;
+    height: 8px;
+    width: 8px;
+}
+
+div.card-body > div > div {
+    width: 50px;
+    background: #0066b3;
+    height: 2px;
+}
+
+div.card-body > div > div:first-child {
+    position: absolute;
+    left: 555%;
+    top: 19%;
+}
+
+div.card-body > div > div:last-child {
+    position: absolute;
+    right: 555%;
+    top: 19%;
+}
+
+.card-header {
+    background: #0066b3;
+}
+
+.maincard {
+    margin: 15px 0;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    border-left: #0066b3 solid 1px;
+    height: 40px;
+    padding-left: 7px;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+button > i {
+    -webkit-animation: out 1s;
+    animation-fill-mode: forwards;
+}
+
+button > i:hover {
+    -webkit-animation: in 1s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes in {
+    from   { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(180deg);}
+}
+
+@-webkit-keyframes out {
+    0%   { -webkit-transform: rotate(180deg); }
+    100% { -webkit-transform: rotate(0deg); }
+}
+
+
+footer {
+    height: 55px;
+    background: #0066b3;
+}
+
+
+@media (min-width: 1440px) {
+
+    body {
+        width: 100vw;
+    }
+
+    #finished-projects > article > img {
+        margin: 0 0 44px 247px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    #about-us > article > div {
+        left: 15%;
+    }
+
+    #about-us > article > p {
+        left: 12%;
+        width: 747px;
+    }
+
+    #finished-projects {
+        background-size: auto 100vw;
+    }
+
+    #finished-projects > article > img {
+        position: relative;
+        margin: 0 85px 50px 0;
+    }
+
+    #partners > article > div:first-child > a > div {
+        height: 70px;
+        font-size: 18px;
+    }
+
+    #partners > article > div:first-child > a > div > img {
+        height: 30px;
+        width: 30px;
+    }
+
+    #partners > article > div:first-child > img {
+        height: 460px;
+        width: 126%;
+        margin: 45px 0 0 0;
+    }
+
+    #news > article > div {
+        width: 290px;
+        height: 390px;
+    }
+
+    #news > article > div > img {
+        max-width: 290px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    main {
+        width: 425px;
+    }
+
+    header {
+        width: 425px;
+    }
+
+
+}

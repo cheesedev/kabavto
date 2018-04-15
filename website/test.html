@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="col-md-6 col-sm-6">
+        <h3>Accordion collapse with rotating icon</h3>
+        <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Collapsible item #1
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <div class="card" style="width: 350px;">
+                            <img class="card-img-top" src="img/placeholder.png" alt="">
+                            <div class="card-body position-relative">
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <h5 class="card-title">Малых Денис Юрьевич</h5>
+                                <p class="card-text">тел. +7 (3822) 903-402 доб.105</p>
+                                <p class="card-text phone">Генеральный директор</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 350px;">
+                            <img class="card-img-top" src="img/placeholder.png" alt="">
+                            <div class="card-body position-relative">
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <h5 class="card-title">Сысоев Александр Иванович</h5>
+                                <p class="card-text">тел. +7 (3822) 903-402 доб.105</p>
+                                <p class="card-text phone">Начальник отдела продаж</p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 350px;">
+                            <img class="card-img-top" src="img/placeholder.png" alt="">
+                            <div class="card-body position-relative">
+                                <div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <h5 class="card-title">Евстафьева Татьяна Владимировна</h5>
+                                <p class="card-text">тел. +7 (3822) 903-402 доб.105</p>
+                                <p class="card-text phone">Начальник отдела снабжения</p>
+                            </div>
+                        </div>                    </div>
+                </div>
+            </div>
+            <!-- end of panel -->
+
+            <div class="panel">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible item #2
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                    </div>
+                </div>
+            </div>
+            <!-- end of panel -->
+
+            <div class="panel">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible item #3
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                    </div>
+                </div>
+            </div>
+            <!-- end of panel -->
+
+            <div class="panel">
+                <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Collapsible item #4
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                    </div>
+                </div>
+            </div>
+            <!-- end of panel -->
+
+        </div>
+        <!-- end of #accordion -->
+
+    </div>
+    <!-- end of wrap -->
+
+</div>
+<!-- end of container -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/test.js"></script>
+</body>
+</html>
